@@ -1,5 +1,15 @@
 # Postgres transport for Winston
 
+[![CircleCI](https://circleci.com/gh/Madadata/winston-pg.svg?style=svg)](https://circleci.com/gh/Madadata/winston-pg)
+
+## Install
+
+```sh
+npm install --save winston pg winston-pg
+```
+
+Both `pg` and `winsotn` are peer dependencies.
+
 ## Test and example
 
 See [index.spec.js](https:///Madadata/winston-pg/blob/master/test/index.spec.js) for test spec.
