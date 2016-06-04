@@ -1,6 +1,6 @@
 {
   "name": "winston-pg",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "winston postgres transport",
   "main": "lib/index.js",
   "scripts": {
@@ -32,8 +32,9 @@
   "devDependencies": {
     "babel-cli": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
     "mocha": "^2.5.3",
-    "pg": "^4.5.6",
+    "pg": "^4.5.0",
     "rimraf": "^2.5.2",
     "winston": "^2.2.0"
   }

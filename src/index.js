@@ -5,16 +5,19 @@ import winston from 'winston';
 export default class PgLogger extends winston.Transport {
 
   constructor(options) {
-    super();
-    const { name, level, connString, tableName, initTable } = options;
+    let opts = {
+      name: 'PgLogger',
+      level: 'info',
+      ...options
+    };
+    super(opts);
+    const { connString, tableName, initTable } = opts;
     if (!connString) {
       throw new Error('empty connString');
     }
     if (!tableName) {
       throw new Error('empty table name');
     }
-    this.name = name || 'PgLogger';
-    this.level = level || 'info';
     this.tableName = tableName;
     this.connString = connString;
     if (initTable) {
