@@ -6,4 +6,4 @@ machine:
 
 database:
   override:
-    - echo 'create schema auth' | psql -U ubuntu -a circle_test
+    - echo 'create schema winston' | psql -U ubuntu -a circle_test
