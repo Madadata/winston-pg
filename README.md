@@ -1,6 +1,7 @@
 # Postgres transport for Winston
 
 [![CircleCI](https://circleci.com/gh/Madadata/winston-pg.svg?style=svg)](https://circleci.com/gh/Madadata/winston-pg)
+[![Dependency Status](https://david-dm.org/Madadata/winston-pg.svg)](https://david-dm.org/Madadata/winston-pg)
 
 ## Install
 
